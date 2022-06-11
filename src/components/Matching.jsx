@@ -1,10 +1,9 @@
 import React, { useState } from 'react'
-import Final from './Final';
 
 
 const Matching = (props) => {
     const [detail, setdetail] = useState('');
-    const [send ,setsend] = useState('');
+  
 
     const redirectLink = (event) => {
         if (event.target.value === "Friendly") {
@@ -15,18 +14,7 @@ const Matching = (props) => {
         }
     }
 
-    const chan = ()=>{
-        if(detail=== "Friendly"){
-            setsend("Friendly");
-        }
-        else{
-            setsend("Tournament");
-        }
-      
-        <Final type="df" />
 
-
-    }
     return (
         <>
 
@@ -42,7 +30,7 @@ const Matching = (props) => {
                         <option value="Friendly">Friendly</option>
                         <option value="Tournament">Tournament</option>
                     </select>
-                    <input type="submit" value="Search" onClick={chan} />
+                    <input type="submit" value="Search"/>
                 </form>
                 <div id="madeby">
                     <span>
