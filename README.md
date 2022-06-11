@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Team Registration Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is web app which main work is to schuelde the match of the three different types of the games with the choice of the team name , location , type of the match like friendly & tournament. Now talking about the workflow.
 
-## Available Scripts
+## Workflow
 
-In the project directory, you can run:
+1. The HomePage consists of the dropdown in which you have select the type of match like friendly or tournament.
+2. According to the field selected in the previous select dropdown in which there is details of the match like location , comments about match and more.
+3. Next Step will be the filling the details of the both team consisting of the team name and the location of the team is it away or home.
+4. At last there is a displaying the data which is filled in all these forms.
 
-### `npm start`
+## Routing
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- The routing of website and component rendering is take care by the `app.jsx` and render the component as per the link visited.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Home Page
 
-### `npm test`
+- In this there is simple the `select element` and a `useState hook` which changes the link as per the field selected.
+- And also pass the field `type` the data file.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Match Details Form
 
-### `npm run build`
+- Here the simple use of the **Forms Handling** in react and also the some high concepts of css.
+- Here also the data is pass to the file `data.js`.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Team Details Form
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Somehow its same as the above in this also **Form Handling** is used.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Preview Page
 
-### `npm run eject`
+- This page consists of a table in which the data entered in the previous forms.
+- The data in this componets is pass through the file where data is stored and passing as the props from app.jsx.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Conclusion
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+While constructing this project , I have encourted many problems like while routing the components , taking cummilative data from different , Arranging them in table and at last passing props while routing. But must say I have leaned a lot and now more keen to join your organization and contribute in a constructive manner.
