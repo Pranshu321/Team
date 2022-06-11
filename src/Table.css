@@ -1,0 +1,31 @@
+body {
+	margin: 0;
+}
+h1 {
+	text-align: center;
+	margin: 10vh 0;
+}
+.l-wrapper {
+	overflow: hidden;
+}
+.l-contents {
+	max-width: 1080px;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+table {
+	border-collapse: collapse;
+}
+th,
+td {
+	border: 1px solid #ccc;
+	padding: 15px;
+}
+td {
+	color: white;
+}
+th {
+	background-color: #f0f0f0;
+}
